@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    background: none;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: cadetblue;
+    color: white;
+}
+
+section {
+    padding: 50px;
+    margin: 50px;
+    background: white;
+    height: 50vh;
+    text-align: center;
+}
+
+.sectionTwo {
+    display: none;
+}
+
+.sectionOne {
+    animation-name: appear;
+    animation-duration: 0.5s;
+    transition: 0.4;
+}
+
+
+
+h3 {
+    background-color: rgb(212, 212, 212);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: none;
+    animation-name: drop;
+    animation-duration: 2s;
+    transition: 0.3s;
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    width: 70%;
+}
