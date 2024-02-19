@@ -3,23 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Player</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animate.css">
 </head>
 <body>
     <div class="container">
         <section class="sectionOne">
+            
             <h1>Welcome to section one</h1>
+            <input type="text" id="search" placeholder="Search here" autocapitalize="on" autocomplete="country-name">
+            <button id="searchBtn">Search</button>
+            <div class="list">
+            
+            <!-- <div class="card">Treasure</div>
+            <div class="card">Agatha</div>
+            <div class="card">Christopher</div>
+            <div class="card">Ahijah</div> -->
+            </div>
             <button id="btnOne">Go to section two</button>
         </section>
         <section class="sectionTwo">
             <h2>This is the second section</h2>
-            <p>you have to know how to do this</p>
+            <p>Click the play to open player</p>
             <button id="btnTwo">back</button>
             <button id="music">Play</button>
         </section>
-        <h3>Playing music here <button id="remove">X</button></h3>
+        <div class="player">
+            <h3>Playing music here</h3>
+            <button id="remove">X</button>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
